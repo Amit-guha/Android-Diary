@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#46525E"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:src="@drawable/mansion"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:gravity="center"
+        android:text="Home Service"
+        android:textColor="#F6F8F6"
+        android:textSize="@dimen/_20ssp"
+        app:fontFamily="@font/berkshire_swash" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardElevation="@dimen/_4sdp"
+        android:background="#46525E"
+        android:layout_margin="@dimen/_7sdp">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#46525E"
+            android:scaleType="fitXY"
+            android:autofillHints="Drag your pic"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardElevation="@dimen/_4sdp"
+        android:layout_margin="@dimen/_15sdp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F06DA9"
+            android:weightSum="2"
+            >
+
+
+
+            <EditText
+                android:id="@+id/EtCity"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:hint="Name of Your City"
+                android:layout_height="@dimen/_50sdp"/>
+
+            <Button
+                android:id="@+id/BtnGallery"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:textSize="@dimen/_17ssp"
+                android:background="#009688"
+                android:gravity="center"
+                android:fontFamily="@font/amaranth_bold"
+                android:textColor="#FFFFFF"
+                android:textAllCaps="false"
+                android:layout_height="match_parent"
+                android:text="Choose Picture"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardElevation="@dimen/_4sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp">
+
+        <TextView
+            android:id="@+id/Tvsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#917DB8"
+            android:gravity="center"
+            android:text="Submit"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_18ssp"
+            app:fontFamily="@font/amarante" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardElevation="@dimen/_4sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:layout_marginRight="@dimen/_15sdp">
+
+        <TextView
+            android:id="@+id/tvshowdata"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Show Data"
+            android:background="@color/colorSky"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_18ssp"
+            app:fontFamily="@font/amarante"
+            android:gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
