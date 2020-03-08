@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.9"
+    android:orientation="vertical"
+    android:background="@drawable/newbackground"
+    tools:context=".Seat_Plan">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Seat Plan"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#f234"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_height="wrap_content"/>
+
+    <!-- to make the backgrond color-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="7dp"
+        android:background="@drawable/textview">
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Roll :"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/tvs_setRoll"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="A08203"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+
+
+        <!--          Design of Unit                              -->
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="7dp"
+            >
+
+            <TextView
+                android:id="@+id/tvs_unit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Unit :"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvs_unitset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="A"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <!--    Make Location-->
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="7dp"
+
+            >
+
+            <TextView
+                android:id="@+id/tvs_Location"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Location :"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvs_LocationSEt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Sheikh Fazilatun-nesa Govt. Mohila College,Gopalganj"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <!-- Make design of Room No-->
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="7dp"
+            >
+
+            <TextView
+                android:id="@+id/tvs_room"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Room :"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvs_roomset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Bank Varanda(Ground Floor)"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <!--Make design of Date of Time-->
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:id="@+id/tvs_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Date and: Time"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp"
+                android:gravity="center"
+                android:layout_marginBottom="7dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvs_dateset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="01.10.19(3.00PM -4.00PM)"
+                android:layout_marginBottom="7dp"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <!--Get Direction using google map-->
+
+        <LinearLayout
+            android:id="@+id/LinerLaoyout6"
+            android:layout_gravity="center"
+            android:background="@drawable/button_shape2"
+            android:layout_marginBottom="25dp"
+            android:layout_width="170dp"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:src="@drawable/red_direction"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="17dp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Direction"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_margin="8dp"
+        android:id="@+id/tv_SearchAgain"
+        android:background="@drawable/button_shape2"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:textSize="19dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Search Again"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+</LinearLayout>

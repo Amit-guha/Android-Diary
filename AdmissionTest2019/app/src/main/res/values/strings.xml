@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BSMRSTU Admission Test 2019</string>
+    <string-array name="Association">
+        <item>Dhaka</item>
+        <item>Rangpur</item>
+        <item>Syllhet</item>
+        <item>Satkhira</item>
+        <item>Magura</item>
+        <item>Barisal</item>
+        <item>Jashore</item>
+        <item>Narail</item>
+        <item>Mymensingh</item>
+        <item>Joypurhat</item>
+        <item>Rajshahi</item>
+        <item>Noakhali</item>
+        <item>Meherpur</item>
+        <item>Manikganj</item>
+        <item>Jhenaidah</item>
+
+    </string-array>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="about_section">ইতিমধ্য আমাদের বিশ্ববিদ্যালয়ের অফিসিয়াল ওয়েবসাইট A,B,C,H,I ইউনিট এর সিট প্ল্যান প্রকাশিত হয়েছে ।  এই বিষয়টিকে
+    আমরা মোবাইল এ্যপস এর মাধ্যমে সহজে উপস্থাপন করার চেষ্টা করেছি । এই এ্যপস এর মাধ্যমে আপনি রোল নাম্বার দিয়ে জেনে নিতে পারবেন আপনার পরীক্ষা সম্পর্কিত
+    যেকোনো তথ্য । এছাড়াও এই এ্যপস এর মাধ্যমে আপনার বর্তমান লোকেশন থেকে আপনাদের পরীক্ষার কেন্দ্রে যাওয়ার দিক নির্দেশনা পাবেন, যেখানে গুগল ম্যাপ ব্যবহার
+    করা হয়েছে । এই এ্যপস এর মাধ্যমে আপনি আমাদের বিশ্ববিদ্যালয়ের অফিসিয়াল ওয়েবসাইট ভিজিট করতে পারবেন । আপনার যেকোনো সমস্যার জন্য আপনি যোগাযোগ করতে
+    পারবেন আপনার জেলা থেকে আগত এই বিশ্ববিদ্যালয়ে পড়ুয়া বড় ভাই ও বোনদের সাথে । এজন্য এই এ্যপস এ তাদের নাম ও মোবাইল নাম্বার দেয়া হয়েছে এবং এই
+    এ্যপস এর মাধ্যমে আপনি তাদের ফোন ও মেসেজ দিতে পারবেন ।  ধন্যবাদ এ্যপস্টি ইন্সটল করার জন্য এবং আমাদের সাথে থাকার জন্য ।</string>
+</resources>

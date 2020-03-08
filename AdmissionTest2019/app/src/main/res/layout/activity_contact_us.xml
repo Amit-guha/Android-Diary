@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Contact_us">
+
+
+    <TextView
+    android:layout_marginTop="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Developed By"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:textSize="20dp"
+    />
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amit guha"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Department of CSE"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_amit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fb:https://www.facebook.com/Amitguho95"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+
+    <TextView
+
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Syed Niloy Hossain"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Department of CSE"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/tv_Niloy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fb:https://www.facebook.com/syedniloy.hossain"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+
+
+
+
+</LinearLayout>

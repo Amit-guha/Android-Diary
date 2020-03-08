@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admissiontest2019">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/canva"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/canva"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Jinadah"></activity>
+        <activity android:name=".Manikgonj" />
+        <activity android:name=".meherpur" />
+        <activity android:name=".Noyakali" />
+        <activity android:name=".Rajshahi" />
+        <activity android:name=".JoypurHat" />
+        <activity android:name=".Memensingh" />
+        <activity android:name=".Norail" />
+        <activity android:name=".Contact_us" />
+        <activity
+            android:name=".Admission_result"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Design_view"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".About"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Edit_text"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Jashore"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Barishal"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Magura"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Rangpur"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Dhaka"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Syllhet"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Comilla" />
+        <activity
+            android:name=".Satkhira"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Association"
+            android:parentActivityName=".Interface_First"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Website"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Interface_First"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Amit_facebook"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seat_Plan"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:parentActivityName=".Interface_First"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+    </application>
+
+</manifest>
