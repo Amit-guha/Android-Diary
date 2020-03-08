@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.beyourowndoctor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/stethoscope"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/stethoscope"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BYOD"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Feedback"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"
+           />
+        <activity
+            android:name=".about"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".bloodbankdetails"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".bloodbank" />
+        <activity
+            android:name=".bloodbank"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".DiseasesName"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".emergency"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Hospital" />
+        <activity
+            android:name=".Hospital"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DevelopedBy"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".HealthCareDetails"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".HealthCare"/>
+        <activity android:name=".HealthCare"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".WhatFirstAidsBox"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".FirstAids"/>
+        <activity android:name=".FirstAids"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".FiveDiseasesMark"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".DiseasesMark"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DiseasesCatagorey" />
+        <activity android:name=".DiseasesCatagorey"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".DoctorPHone"
+            android:screenOrientation="portrait"
+           />
+        <activity android:name=".DoctorName"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Specilist_Doctor"
+            />
+        <activity android:name=".Specilist_Doctor"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

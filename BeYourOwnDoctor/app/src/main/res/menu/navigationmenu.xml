@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   >
+
+   <group android:checkableBehavior="single">
+
+
+       <item android:id="@+id/about"
+           android:title="About"
+           android:icon="@drawable/about123"/>
+
+       <item android:id="@+id/Share"
+           android:title="Share"
+           android:icon="@drawable/share"/>
+
+    <item android:id="@+id/feebackid"
+        android:title="Feedback"
+        android:icon="@drawable/feedback"/>
+
+
+   </group>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item android:id="@+id/biod"
+                android:title="Byod FB Page"
+                android:icon="@drawable/facebook"/>
+
+            <item android:id="@+id/aboutus"
+                android:title="Contact Us"
+                android:icon="@drawable/contactus"/>
+        </menu>
+    </item>
+
+
+</menu>

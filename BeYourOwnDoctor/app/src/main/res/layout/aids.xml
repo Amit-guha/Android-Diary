@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#19685C"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:background="#19685C"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardElevation="@dimen/_2sdp"
+        >
+        <TextView
+            android:id="@+id/tv_aids"
+            android:background="#19685C"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Category - A"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="@dimen/_16ssp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

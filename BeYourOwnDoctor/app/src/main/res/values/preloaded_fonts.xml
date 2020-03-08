@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adamina</item>
+        <item>@font/amarante</item>
+        <item>@font/amaranth_bold</item>
+        <item>@font/bentham</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/bitter</item>
+        <item>@font/delius_swash_caps</item>
+    </array>
+</resources>

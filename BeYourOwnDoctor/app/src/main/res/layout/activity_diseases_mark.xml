@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#19685C"
+    android:orientation="vertical"
+    tools:context=".DiseasesMark">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Probname"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_15ssp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            />
+
+
+
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:text="Fever"/>
+
+    <CheckBox
+        android:id="@+id/check2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:text="Fever"/>
+
+    <CheckBox
+        android:id="@+id/check3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:text="Fever"/>
+
+    <CheckBox
+        android:id="@+id/check4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:text="Fever"/>
+    <CheckBox
+        android:id="@+id/check5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:text="Fever"/>
+    <CheckBox
+        android:id="@+id/check6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:text="Fever"/>
+    <CheckBox
+        android:id="@+id/check7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:text="Fever"/>
+    <CheckBox
+        android:id="@+id/check8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="#FFFFFF"
+        android:text="Fever"/>
+    <CheckBox
+        android:id="@+id/check9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:text="Fever"/>
+    <CheckBox
+        android:id="@+id/check10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="#FFFFFF"
+        android:text="Fever"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="#FFFFFF"
+        android:background="#009688"
+        android:text="@string/submit"/>
+
+    </LinearLayout>
+
+</ScrollView>

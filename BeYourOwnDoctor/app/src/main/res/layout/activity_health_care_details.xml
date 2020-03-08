@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HealthCareDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_13sdp">
+
+        <ImageView
+            android:id="@+id/ImagIdCare"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/firstaid"
+            />
+
+
+
+        <TextView
+            android:id="@+id/tv_whatisFristAids1Care"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="21st February"
+            android:textColor="#111010"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:gravity="center"
+            android:textSize="@dimen/_16ssp"/>
+
+
+        <TextView
+            android:id="@+id/tv_whatisFristAids2Care"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="21st February"
+            android:textColor="#111010"
+            android:gravity="fill_horizontal"
+            android:textSize="@dimen/_15ssp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
