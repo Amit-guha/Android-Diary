@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:gravity="center"
+    tools:context=".ShowUpload">
+
+    <LinearLayout
+        android:id="@+id/MaleAccount"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgViewId"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/house"/>
+
+        <TextView
+            android:id="@+id/tv_ImageName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20ssp"
+            android:layout_marginTop="5dp"
+            android:text="Bachelar(Male)"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/FemaleAccount"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgViewId2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/house"/>
+
+        <TextView
+            android:id="@+id/tv_ImageName2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20ssp"
+            android:layout_marginTop="5dp"
+            android:text="Bachelar(Female)"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/Btn_Choosefile"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_marginBottom="15dp"
+        android:layout_toRightOf="@id/btn_upload"
+        android:background="@drawable/button_shape"
+        android:gravity="center"
+        android:text="Choose File"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="@dimen/_15sdp" />
+
+    <TextView
+        android:id="@+id/tv_Area"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30ssp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textSize="@dimen/_17ssp"
+        android:text="Enter Your Place  : "
+
+        />
+
+    <EditText
+        android:id="@+id/Et_Filename"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40ssp"
+        android:textSize="@dimen/_15ssp"
+        android:layout_below="@id/tv_Area"
+        android:layout_alignParentLeft="true"
+        android:hint="EX : Nobinbag, Gopalganj" />
+
+    <EditText
+        android:id="@+id/Et_vara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_15sdp"
+        android:layout_below="@id/Et_Filename"
+        android:layout_alignParentLeft="true"
+        android:hint="Enter Your Amount" />
+
+    <TextView
+        android:id="@+id/Tv_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Et_vara"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="@dimen/_17ssp"
+        android:layout_alignParentLeft="true"
+        android:hint="Your Phone No :" />
+
+    <EditText
+        android:id="@+id/Et_Mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_15sdp"
+        android:layout_below="@id/Tv_mobile"
+        android:layout_alignParentLeft="true"
+        android:hint="Ex : 01734229096" />
+
+    <TextView
+        android:id="@+id/tv_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:layout_below="@id/Et_Mobile"
+        android:textSize="@dimen/_15ssp"/>
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/tv_gender">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14ssp"
+            android:text="Male"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14ssp"
+            android:layout_marginLeft="15dp"
+            android:text="Female"/>
+
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="15dp"
+        android:text="Uploads"
+        android:textColor="#FFFFFF"
+       android:background="@drawable/button_shape"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_15sdp" />
+
+    <TextView
+        android:id="@+id/tv_showdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toRightOf="@id/btn_upload"
+        android:gravity="center"
+        android:text="Show Uploads"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/Progressbar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_upload"
+        android:layout_marginBottom="3dp" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@id/RadioGroup"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_above="@id/Progressbar"/>
+
+
+</RelativeLayout>
